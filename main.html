@@ -6,14 +6,14 @@
     <title>modal practice</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+  <body id="body">
     <div class="modal_container">
       <h1 class="modal_button-title">Go ahead and press one</h1>
       <div class="buttons">
-        <button onclick="open()">red</button>
-        <button onclick="open()">blue</button>
-        <button onclick="open()">green</button>
-        <button onclick="open()">yellow</button>
+        <button id="red" onclick="open('red')">red</button>
+        <button id="blue" onclick="open('blue')">blue</button>
+        <button id="green" onclick="open('green')">green</button>
+        <button id="yellow" onclick="open('yellow')">yellow</button>
       </div>
     </div>
     <script src="start.js"></script>

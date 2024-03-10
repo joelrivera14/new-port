@@ -5,9 +5,36 @@ body {
   align-content: center;
   height: 100vh;
 }
+
+.red_body {
+  background-color: red;
+}
+.blue_body {
+  background-color: blue;
+}
+.green_body {
+  background-color: green;
+}
+.yellow_body {
+  background-color: yellow;
+}
+
 button {
   width: 100px;
   height: 100px;
+}
+
+.button_red {
+  background-color: red;
+}
+.button_blue {
+  background-color: blue;
+}
+.button_green {
+  background-color: green;
+}
+.button_yellow {
+  background-color: yellow;
 }
 
 .buttons {
