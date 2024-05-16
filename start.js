@@ -1,13 +1,21 @@
 const background = document.getElementById("body");
-const redButton = document.getElementById("red");
+const button = document.querySelector("button");
 
-function open(color) {
+function openColor(color) {
   if (color == "red") {
     red();
+  } else if (color == "blue") {
+    blue();
   }
 }
 
 function red() {
   background.classList.add("red_body");
-  redButton.classList.add("button_red");
+  button.classList.add("button_red");
+  console.log("Script loaded");
+}
+
+function blue() {
+  background.classList.add("blue_body");
+  button.classList.add("button_blue");
 }
