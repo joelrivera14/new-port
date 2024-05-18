@@ -15,7 +15,7 @@ function red() {
   console.log("Script loaded");
 }
 
-function blue() {
+function blu() {
   background.classList.add("blue_body");
   button.classList.add("button_blue");
 }
