@@ -17,5 +17,5 @@ function red() {
 
 function blue() {
   background.classList.add("blue_body");
-  button.classList.add("button_blue);
+  button.classList.add("button_blue");
 }
